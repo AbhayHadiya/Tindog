@@ -1,0 +1,157 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-weight: bold;
+}
+p{
+  color: #8F8F8f;
+}
+
+.Big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.secondary-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+/* navigation-bar */
+
+.navbar{
+  padding: 0 0 3.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+   color: #f8f9fa;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+/* download-bt */
+.download-bt{
+  margin:5% 3% 5% 0;
+}
+/* title-img */
+.title-img{
+  width: 70%;
+  transform: rotate(25deg);
+
+}
+
+/* features */
+
+#features{
+  padding: 7% 13%;
+  background-color: #fff;
+
+}
+.feature-box{
+  padding: 3%;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+
+#testimonials{
+
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+.carousel-item{
+  padding: 7% 13%;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#pricing{
+  padding: 100px;
+
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:1028px) {
+#title{
+  text-align: center;
+}
+
+  .title-img{
+    transform: rotate(0);
+  }
+}
+/* cta */
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+  padding: 70px 30px 30px;
+}
+/* footer */
+#footer-f {
+  background-color: #fff;
+  margin: 40px 30px 20px;
+}
+.footer-icon{
+  align-items: center;
+  padding: 0 5px;
+}
+.Copyright{
+  color: #8F8F8f;
+}
